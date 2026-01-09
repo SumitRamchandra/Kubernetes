@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deploy-myapp
+  labels:
+    app: myapp
+spec:
+  template:
+    metadata:
+      # name: deploy-myapp       ####Pods created by a Deployment must not set a fixed name. Kubernetes will generate pod names automatically.
+      labels:
+        app: myapp
+    spec:
+      containers: 
+      - image: nginx:1.23.4-alpine
+        name: myapp
+        ports:
+        - containerPort: 80
+  replicas: 1
+  selector:
+    matchLabels:
+      app: myapp  
+    

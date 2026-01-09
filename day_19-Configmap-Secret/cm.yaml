@@ -1,0 +1,10 @@
+# this cm file is created imperatively
+
+apiVersion: v1
+data:
+  firstname: java
+  lastname: application
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: app-cm

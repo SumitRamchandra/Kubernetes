@@ -1,0 +1,15 @@
+# this yaml is created using below dry-run command
+# kubectl run nginx --image=nginx --dry-run=client -0 yaml > new-pod.yaml
+
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: test
+  name: redis
+spec:
+  containers:
+  - image: rediss
+    name: redis
+    
+

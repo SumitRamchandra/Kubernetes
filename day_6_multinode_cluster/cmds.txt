@@ -1,0 +1,12 @@
+You can use below 2 official websites for commands cheatsheet *At the time of exam as well
+A. kubernetes.io/docs   -> search for cheatsheet
+B. kubernetes.io/blogs
+
+## usual commands:
+
+1. kubectl version --client      -> check the version of kubectl
+2. kubectl get nodes    -> get the details of the nodes (controle-plane and worker-plane or nodes)
+3. kind create cluster --image <image_name> --name <name_of_the_cluster> --config config.yaml     ->This will create the new cluster with the config yaml file 
+4. kubectl config get-contexts   -> display list of contexts 
+5. kubectl config get-contexts -o name    -> get all contexts name
+6. kubectl config use-context <cluster_name>   -> switch between the clusters

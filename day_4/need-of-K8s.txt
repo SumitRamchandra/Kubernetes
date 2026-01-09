@@ -1,0 +1,20 @@
+Kubernetes is an open source system for deploying, managing, and scaling containerized applications, particularly cloud native applications written using microservices. 
+
+Kubernetes (K8s) allows administrators to cluster containers together to make them easier to manage.
+
+We need Kubernetes to automate the deployment, scaling, and management of complex containerized applications, providing self-healing, load balancing, and rolling updates for high availability and reliability, saving development time, optimizing resources, and enabling portability across different cloud/on-prem environments, especially for microservices and large-scale systems. 
+
+Key Reasons to Use Kubernetes:
+
+1. Automation: Automates tasks like scheduling containers, managing deployments, rolling updates, and self-healing (restarting failed containers).
+2. Scalability & Reliability: Automatically scales applications up or down based on traffic, ensuring high availability and resilience against node failures.
+3. Efficiency: Optimizes hardware usage, potentially reducing costs, and allows teams to focus on building features, not managing infrastructure.
+4. Portability: Runs consistently across public clouds, private clouds, and on-premises, reducing vendor lock-in.
+5. Microservices & Modern Apps: Provides a robust foundation for complex, cloud-native applications and microservices architectures.
+6. Service Management: Offers built-in service discovery and load balancing to distribute traffic evenly across containers.
+7. DevOps Efficiency: Streamlines development and operations with features like declarative configurations, rollbacks, and standardized management. 
+
+When You Might Need It (and When You Might Not)
+
+- You likely need it if: You have microservices, dynamic workloads, need high availability (minimal downtime), run complex apps at scale, or want to avoid cloud lock-in.
+- You might not need it if: You have a simple, small application, as Kubernetes adds complexity and overhead.
